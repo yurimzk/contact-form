@@ -19,4 +19,40 @@
 body {
   font-family: "Karla", sans-serif;
   font-size: 1.6rem;
+  background-color: var(--primary-lighter-green);
+}
+
+#app {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: var(--neutral-white);
+  margin: 3.2rem 1.6rem;
+  border-radius: 1.6rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  margin-top: 2.4rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+}
+
+fieldset {
+  border: none;
+}
+
+button {
+  border: none;
 }
