@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --primary-lighter-green: hsl(148, 38%, 91%);
+  --primary-medium-green: hsl(169, 82%, 27%);
+  --primary-red: hsl(0, 66%, 54%);
+
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-medium-grey: hsl(186, 15%, 59%);
+  --neutral-darker-grey: hsl(187, 24%, 22%);
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 1.6rem;
+}
